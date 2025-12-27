@@ -1,1 +1,9 @@
-.venv
+# Python virtual environment
+.venv/
+# Flask instance folder (database, secrets, runtime data)
+instance/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
